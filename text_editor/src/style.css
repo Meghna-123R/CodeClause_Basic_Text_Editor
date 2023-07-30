@@ -1,0 +1,29 @@
+:root {
+
+    --primarybg: #BDC7C9;
+    --secondary: #2B4F60;
+}
+body{
+    background-color: var(--primarybg);
+}
+.container{
+    background-color: var(--primarybg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verti h2{
+
+    margin-bottom: 2rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.hori{
+
+    
+    width:100vh;
+}
